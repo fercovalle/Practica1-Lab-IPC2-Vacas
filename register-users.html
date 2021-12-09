@@ -14,8 +14,10 @@
 
 <body>
   <script src="./js/app.js"></script>
-  <section>
+  <section class="my-4 mx-5">
     <form class="form-register-user">
+      <h1 class="font-weight-bold py-3">Registro de Usuarios</h1>
+      <h4>Ingresa tus datos en el formulario para crear una cuenta</h4>
       <div class="mb-3">
         <label for="email" class="form-label">Correo Electrónico</label>
         <input type="email" class="form-control" id="input-email">
@@ -36,7 +38,7 @@
         <label for="password" class="form-label">Confirmar Contraseña</label>
         <input type="password" class="form-control" id="input-password-confirm">
       </div>
-      <button type="button" onclick="getDatosRegisterUser()" class="btn btn-outline-primary"
+      <button type="button" onclick="getDataRegisterUser()" class="btn btn-primary mt-3 mb-4"
         id="btn-register-user">Registrar</button>
     </form>
   </section>

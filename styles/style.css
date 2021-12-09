@@ -23,4 +23,16 @@ img{
     border: 1px solid;
     border-color:rgb(51, 51, 104);
 }
+#btn-register-user:hover{
+    background:rgb(51, 51, 104);
+    border: 1px solid;
+    border-color:rgb(51, 51, 104);
+}
+.form-register-user{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 6px 6px 11px rgb(175, 154, 154);
+}
+
+
 
