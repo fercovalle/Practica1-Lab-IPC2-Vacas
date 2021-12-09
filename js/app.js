@@ -5,6 +5,7 @@ function getDataLogin(){
     }
     userLogin.email=document.getElementById("email-login").value;
     userLogin.password=document.getElementById("password-login").value;
+    console.log("Inicio de Sesión Exitoso!");
     console.log(userLogin);
 
     /*
